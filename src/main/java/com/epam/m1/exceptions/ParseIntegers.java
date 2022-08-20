@@ -23,7 +23,7 @@ public class ParseIntegers {
             String next = words.next();
             try {
                 int number = Integer.parseInt(next);
-                sum = sum + number;
+                sum += number;
             } catch (NumberFormatException e) {
                 justWords = justWords + " " + next;
             }
